@@ -9,7 +9,6 @@
             <h5 class="card-title">NIM   : {{ $students->nim }}</h5>
             <h5 class="card-title">Jurusan : {{ $students->jurusan }}</h5>
             <h5 class="card-title">Hobi : {{ $students->hobi }}</h5>
-            <h5 class="card-title">Alamat : {{ $students->alamat }}</h5>
 
 
         </div>

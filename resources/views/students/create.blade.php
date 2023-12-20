@@ -21,13 +21,13 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgb(130, 106, 251);
+  /* background: rgb(130, 106, 251); */
 }
 .container {
   position: relative;
   max-width: 700px;
   width: 100%;
-  background: #fff;
+  background: #f8e1e1;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ body {
   margin-top: 20px;
 }
 .input-box label {
-  color: #333;
+  color: #000000;
 }
 .form :where(.input-box input, .select-box) {
   position: relative;
@@ -61,7 +61,7 @@ body {
   padding: 0 15px;
 }
 .input-box input:focus {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgb(0, 0, 0);
 }
 .form .column {
   display: flex;
@@ -149,8 +149,6 @@ body {
           </div>
         </div>
         <div class="input-box address">
-          <label>Alamat</label>
-        <textarea name="alamat" id="alamat" class="form-control"></textarea></br>
         <input type="submit" value="Save" class="btn btn-success"></br>
 
         </div>

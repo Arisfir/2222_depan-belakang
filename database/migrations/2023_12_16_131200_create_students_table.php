@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('nim');
             $table->string('jurusan');
             $table->string('hobi');
-            $table->string('alamat');
             $table->timestamps();
         });
     }

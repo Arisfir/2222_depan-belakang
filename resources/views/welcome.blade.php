@@ -10,19 +10,16 @@
 </head>
 <body>
   <style>
-    body {
-        background: rgb(238, 28, 115);
-    }
     img {
         width: 40px;
         height: 160px;
     }
     .card{
         width: 500px;
-        height: 250px;
+        height: 150px;
         margin-left: 400px;
         margin-top: 100px;
-        background: #a9ddb4;
+        background: #ffffff;
       }
     .btn {
         margin-left: 100px;
@@ -31,21 +28,31 @@
         height: 50px;
         font-size: 18px;
         font-weight: bold;
-        color: white;
-        background: rgb(224, 85, 85);
+        color: rgb(228, 248, 114);
+        background: rgb(130, 53, 53);
     }
     .btn:hover {
-        background: rgb(224, 85, 85);
-        color: white;
+        background: rgb(130, 53, 53);
+        color: rgb(255, 255, 255);
+    }
+
+    h5 {
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    h6 {
+        margin-left: 170px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
     }
   </style>
 
-
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">PROJEK UAS ALPRO 2023</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Sukijan</h6>
-          <p class="card-text">Deskripsi : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae rerum odit totam molestiae, praesentium, aspernatur, odio adipisci labore aperiam mollitia cum! Quas excepturi atque in tempore quidem. Non, modi nesciunt?</p>
+          <h5>PROJEK UAS ALPRO 2023</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Adinda Salsabila</h6>
           <a href="{{ url('/student') }}" class="btn ">Go to my application</a>
         </div>
       </div>

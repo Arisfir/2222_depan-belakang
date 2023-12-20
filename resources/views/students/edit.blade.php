@@ -17,8 +17,6 @@
         <input type="text" name="jurusan" id="jurusan" value="{{$students->jurusan}}" class="form-control"></br>
         <label>Hobi</label>
         <input type="text" name="hobi" id="hobi" value="{{$students->hobi}}" class="form-control"></br>
-        <label>Alamat</label>
-        <textarea name="alamat" id="alamat" class="form-control">{{$students->alamat}}</textarea></br>
         <input type="submit" value="Update" class="btn btn-success"></br>
     </form>
    

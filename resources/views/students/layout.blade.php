@@ -8,7 +8,11 @@
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
   </head>
   <body>
-
+    <style> 
+    /* body {
+      background-image: url("{{ asset('/images/bg.jpg')}}");
+    } */
+    </style>
     <div class="container">
         @yield('content')
     </div>

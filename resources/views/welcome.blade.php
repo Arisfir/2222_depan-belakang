@@ -53,7 +53,7 @@
         <div class="card-body">
           <h5>PROJEK UAS ALPRO 2023</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary">Adinda Salsabila</h6>
-          <a href="{{ url('/student') }}" class="btn ">Go to my application</a>
+          <a href="{{ url('/student') }}" class="btn ">Go to my application </a>
         </div>
       </div>
 
